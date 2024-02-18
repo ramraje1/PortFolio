@@ -1,0 +1,159 @@
+#Header{
+    display: flex;
+    width: 100%;
+    background-color:#dadff7;
+    z-index: 1000;
+    position: sticky;
+    top:0;
+    bottom: 0;
+}
+#Header .Head1
+{
+    width: 40%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+#Header .Head1 h1{
+    font-size: 40px;
+    font-family:open sans,sans-serif; 
+    font-weight: 700;
+    margin-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration:underline;
+    text-decoration-color:#565863;
+}
+#Header .Head2
+{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+#Header .Head2 span
+{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 2px 3px;
+}
+#About
+{
+    width: 100%;
+    display: flex;
+    background-color: #E3E6F3;
+}
+#About .About-Img
+{
+    
+    width: 50%;
+    display: flex;
+
+}
+#About .About-Img img{
+    height: 53vh;
+    width: 54%;
+    margin: 40px 0px 20px 200px;
+    border-radius: 50%;
+
+
+}
+#About .About-Bio
+{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#About .About-Bio h3
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#About .About-Bio span
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+     font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.Common-Sec
+{
+    display: flex;
+    width: 100%;
+    background-color: #ebedf4;
+}
+.Common-Sec .Title
+{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Common-Sec .Title h2{
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.Common-Sec .Info
+{
+    width: 52%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px 0px 10px 200px;
+}
+.Common-Sec  h2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Common-Sec .Info span
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+     font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.Common-Sec .Info li
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 17px;
+   font-weight: 500;
+   line-height: 22px;
+
+}
+#soial .github{
+    display: flex;
+    justify-content: center;
+    background-color: #cdd4f8;
+    text-align: center;
+    /* margin-bottom: 80px; */
+}
+#soial .github a {
+    font-size: 60px;
+    margin-left: 30px;
+}
+
+#pdf{
+    background-color: #cdd4f8;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+.copyright{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(30, 29, 29);
+    color: white;
+    font-size: 19px;
+    padding-top: 5px;
+    height: 50px;
+}
